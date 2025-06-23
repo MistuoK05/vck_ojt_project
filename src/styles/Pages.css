@@ -1,0 +1,162 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+background-color: aqua;}
+
+.maincont{
+  display:block;
+  justify-content:center;
+  align-items:center;
+  margin: 0 auto;
+  width:80%;
+  border: 2px solid rgb(39, 121, 236);
+  border-radius:10px;
+  padding:40px;
+  background-color:whitesmoke;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  max-width: 80%;
+  min-width: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+  
+  overflow-x: scroll;
+  
+}
+.maincont>h1{
+  color:rgb(39, 121, 236);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 35px;
+  margin-top:0px;
+}
+.maincont>p{
+  text-align:left;
+  font-size:16px;
+  color: #191919;
+}
+.maincont>h2{
+  text-align:left;
+  transition:0.2s ease-in-out;
+  color: black;
+}
+.maincont>h2:hover{
+  color:rgb(39, 121, 236);
+  
+}
+ul{
+  text-align:left;
+  align-items: left;
+  color: black;
+}
+ol{
+  text-align:left;
+  align-items: left;
+  color: black;
+}
+.btn{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 2px;
+  background-color:rgb(16, 173, 16);
+  width:200px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.btn:hover{
+  background-color: rgb(39, 121, 236);
+}
+.btn>a:hover{
+  color: #191919;
+}
+.btn>a{
+  color: white;
+}
+.myerror{
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid red;
+  border-radius:25px;
+  padding:40px;
+  background-color: #191919;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+.myerror>h1{
+  color: red;
+
+}
+.myerror>span{
+  font-size:200px;
+  font-weight: 900;
+  color: red;
+}
+.hero-section{
+  width:100%;
+  height:200px;
+  align-items:center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius:10px;
+  background: url('../../public/images/vck_banner.png') no-repeat center center;
+  background-size:cover;
+
+}
+.hero-overlay-text{
+  text-size-adjust:initial;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+  width:100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.hero-overlay-text>h1{
+  font-size: 45px;
+  margin-bottom:0;
+  margin-top: 5px;
+}
+.imgs{
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s ease-in-out;
+  margin: 0 auto;
+  gap: 20px;
+
+}
+.imgs>img{
+  width:50%;
+  height:auto;
+  border-radius: 10px;
+  transition: 100ms ease-in-out;
+}
+.tbl{
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  color: black;
+  
+}
+.imgs>img:hover{
+  width:51%;
+  height:auto;
+}
+.Que{
+  text-align: center;
+  color: black;
+  
+}
+a{
+  color: black;
+}
+a:hover{
+  color: rgb(39, 121, 236);
+}
