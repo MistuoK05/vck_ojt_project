@@ -37,7 +37,21 @@ const ContactPage =() =>{
                 <a href="https://maps.google.com/?q=Vivekanand+College+Kolhapur" target="_blank" rel="noopener noreferrer" >View on Google Maps</a>
                 <h2>Send Us a Message</h2>
                 <hr/>
-                <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
+                <form className="msgform">
+                  <label>Name:</label>
+                  <input type="text" placeholder="Enter Your Name"></input>
+                  <hr/>
+                   <label>Email:</label>
+                  <input type="email" placeholder="Enter your email"></input>
+                  <hr/>
+                   <label>Mobail No.:</label>
+                  <input type="text" placeholder="Subject"></input>
+                  <hr/>
+                   <label>Feedback:</label>
+                    <textarea placeholder="Your Message" required row='5'></textarea>  
+                    <hr/>
+                    <button type="submit">Send Message</button>            
+                </form>
       </div>
       <Footer/>
     </div>

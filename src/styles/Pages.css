@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-background-color: aqua;}
+background-color: #52d2d2;}
 
 .maincont{
   display:block;
@@ -137,13 +137,20 @@ ol{
   border-radius: 10px;
   transition: 100ms ease-in-out;
 }
-.tbl{
-  margin: 0 auto;
+.tbl {
   width: 100%;
-  height: auto;
-  justify-content: center;
-  color: black;
-  
+  border-collapse: collapse;
+  margin-top: 15px;
+  color: #333;
+}
+.tbl th, .tbl td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: left;
+}
+.tbl th {
+  background-color: #F2F2F2;
+  font-weight: bold;
 }
 .imgs>img:hover{
   width:51%;
@@ -159,4 +166,24 @@ a{
 }
 a:hover{
   color: rgb(39, 121, 236);
+}
+.msgform{
+  color: black;
+  font-weight: 500;
+  justify-content: space-between;
+  font-size:20px ;
+}
+.msgform>input{
+  border:2px solid rgb(39, 121, 236);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+ 
+}
+.msgform>textarea{
+  border:2px solid rgb(39, 121, 236);
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+ 
 }

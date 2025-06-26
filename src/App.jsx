@@ -4,11 +4,12 @@ import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
 import './styles/Pages.css'; // Assuming you have a CSS file for global styles
-import ErrorCode from "./pages/ErrorCode";
 import { useState } from "react";
 import ProfilePopup from "./pages/ProfilePopup";
 import './styles/Popup.css';
 import ApplyPage from "./pages/ApplyPage";
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
+
 
 const App =() =>{
   const [showPopup,setShowPopup]=useState(true);
@@ -16,9 +17,6 @@ const App =() =>{
   const handlePopupClose=()=>{
     setShowPopup(false);
   }
-  
-  
-  
   return(
     <div>
      
@@ -32,9 +30,10 @@ const App =() =>{
             <Route path="/about" element={<AboutPage/>}/>
             <Route path="/courses" element={<CoursesPage/>}/>
             <Route path="/contact" element={<ContactPage/>}/>
-            <Route path="/ErrorCode" element={<ErrorCode/>}/>
+            
             <Route path="/apply" element={<ApplyPage/>}/>
             </Routes>
+            <ChatbotComponent/>
       </Router>
             
           
