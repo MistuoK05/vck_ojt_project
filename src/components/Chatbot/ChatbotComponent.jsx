@@ -29,7 +29,7 @@ const ChatbotComponent = () => {
           newKB[intent].exampleEmbeddings = embeddings;
         }
       }
-      setPreparedKnowledgeBase(newKB);
+      setPreparedKnowledgeBase(newKB);                                   
       setIsKnowledgeBaseLoading(false);
     };
     prepareKB();

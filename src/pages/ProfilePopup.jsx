@@ -9,7 +9,7 @@ const ProfilePopup=({handleClose})=>{
           <div className="popup-content">
             <div className="profile-img">
               <img
-              src="./public/images/profile-img.png"
+              src="/images/profile-img.png"
               alt='profimg'
               width={"100px"}
             />

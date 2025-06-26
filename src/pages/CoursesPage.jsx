@@ -1,6 +1,6 @@
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const CoursesPage =() =>{
     const navigate = useNavigate();
@@ -21,7 +21,7 @@ const CoursesPage =() =>{
                       industry trends and academic advancements.</p>
                 <h2>Discover Campus Life</h2>
                 <hr/>
-                <div className="video-container"><video controls width="100%" height="auto" className="course-video"><source src="/public/videos/college-tour-FAmcnyfF.mp4" type="video/mp4"/>Your browser does not support the video tag.</video><p className="video-caption">Get a glimpse of the vibrant academic and social life at Vivekanand College.</p></div>
+                <div className="video-container"><video controls width="100%" height="auto" className="course-video"><source src="/videos/college-tour-FAmcnyfF.mp4" type="video/mp4"/>Your browser does not support the video tag.</video><p className="video-caption">Get a glimpse of the vibrant academic and social life at Vivekanand College.</p></div>
 
                 <h2>Undergraduate Programs(UG)</h2>
                 <hr/>
@@ -69,8 +69,7 @@ const CoursesPage =() =>{
                     <p>Have questions about a specific course?</p>
                 </div>
                 <div className="btn">
-                <a  href="/contact">Inquire About Courses</a>
-
+                <Link to="/contact">Inquire About Courses</Link>
                 </div>
             </div>
         <Footer/>

@@ -10,10 +10,10 @@ background-color: #52d2d2;}
   justify-content:center;
   align-items:center;
   margin: 0 auto;
-  width:80%;
+  width:50%;
   border: 2px solid rgb(39, 121, 236);
   border-radius:10px;
-  padding:40px;
+  padding:20px;
   background-color:whitesmoke;
   margin-top: 100px;
   margin-bottom: 60px;
@@ -104,7 +104,7 @@ ol{
   justify-content: center;
   margin: 0 auto;
   border-radius:10px;
-  background: url('../../public/images/vck_banner.png') no-repeat center center;
+  background: url('/images/vck_banner.png') no-repeat center center;
   background-size:cover;
 
 }

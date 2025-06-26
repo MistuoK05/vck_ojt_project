@@ -1,6 +1,6 @@
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const HomePage =() =>{
   const navigate = useNavigate();
@@ -18,8 +18,7 @@ const HomePage =() =>{
           <h1>Welcome to Vivekanand College!</h1>
           <p>Your journey to excellence starts here.</p>
           <div className="btn">
-          <a  href="/apply" data-discover="true">Apply Now!</a> 
-
+         <Link to="/apply">Apply Now!</Link>
           </div>
         </div>
         </div>
@@ -40,8 +39,8 @@ const HomePage =() =>{
         <hr/>
         <div className="imgs">
           
-          <img src="/public/images/students-studying-DbLGuwF_.png" alt="Student Profiles"/>
-          <img src="/public/images/campus-life-Crkero7B.png" alt="campus"/>
+          <img src="/images/students-studying-DbLGuwF_.png" alt="Student Profiles"/>
+          <img src="/images/campus-life-Crkero7B.png" alt="campus"/>
         </div>
         
         <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
@@ -50,7 +49,7 @@ const HomePage =() =>{
 
         </div>
         <div className="btn">
-        <a href="/courses">Explore Courses</a>
+       <Link to="/courses">Explore Courses</Link>
 
         </div>
         </div>
