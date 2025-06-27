@@ -16,7 +16,7 @@ const Header =() =>{
     <div>
       <header>
           <div className="navbar">
-            <div className="logo"><a href="/home">Vivekanand College</a></div><br/>
+            <div className="logo"><Link to="/home">Vivekanand College</Link></div><br/>
             <div className="menu" onClick={toggleMenu}>{menuOpen ? '✖' : '☰'}</div>
              <ul className="nav" id="navlink">
             <li className="nav-item"><Link to="/home">Home</Link></li>
