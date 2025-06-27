@@ -187,3 +187,16 @@ a:hover{
   border-radius: 10px;
  
 }
+.video-container{
+  background-color: #191919;
+  border-radius: 10px;
+}
+.video-container>video{
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+.video-caption{
+  background-color: #F2F2F2;
+  color: black;
+  border-radius: 10px;
+}
